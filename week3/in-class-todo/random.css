@@ -1,0 +1,27 @@
+h {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+
+p.diary {
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 130%;
+}
+
+h1 {
+    background-color: #f0f0f0;
+    padding: 40px;
+    border-width: 40px;
+    border-color: #f0f0f0;
+}
+
+h2 {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-width: 10px;
+    border-color: #803232;
+    border-style: outset;
+    
+}

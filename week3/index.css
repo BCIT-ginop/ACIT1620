@@ -1,0 +1,11 @@
+a:hover {
+    color: rgb(202, 8, 8);
+}
+body {
+    font-size: 30px;
+    /* font-weight: 40%; */
+}
+p {
+    /* font-size: 20px; */
+    font-weight: 400%;
+}
