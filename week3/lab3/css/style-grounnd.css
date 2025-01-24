@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: poppins, 'Times New Roman', Times, serif;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #201e2c;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+
+header .tdm {
+    color: #d49b4f;
+    margin-right: 150px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-right: 25px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header ul li a:hover {
+    color: #d49b4f;
+}
+
+/* front intro section */
+section.front_intro {
+    background-color: #201e2c;
+    color: #dbf7df;
+    display: flex;
+    align-items: center;
+    padding: 100px 130px 50px 150px;
+}
+
+.front_intro_title {
+    font-size: 50px;
+}
+
+.front_intro_title span {
+    color: #d49b4f;
+}
+
+.front_intro_details {
+    color: lightgrey;
+}
+
+.portfolio_img img {
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+/* about section  */
+section.about_section {
+    /* width: 20; */
+    margin: 40px 40px;
+    border-radius: 10px;
+    background-color: #a0763e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.about_my_avatar img {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 5px 5px 20px #201e2c;
+    object-fit: cover;
+}
+
+.about_details {
+    margin-left: 110px;
+    max-width: 500px;
+}
+/* talents section? */
+.about_details {
+    margin-left: 100px;
+    max-width: 600px;
+}
+
+.about_details h2 {
+    font-size: 33px;
+}
+
+.about_details h2 > span {
+    color: #d49b4f;
+}
+
+.about_details p {
+    color: #dbf7df;
+    font-size: 15px;
+}
+
+/* project section  */
+section.pj_section {
+    background-color: #201e2c;
+    color: white;
+    padding: 50px 120px;
+}
+
+.pj_section h2 {
+    font-size: 28px;
+    text-align: center;
+}
+
+.pj_section h2 > span {
+    color: #d49b4f;
+}
+
+.pj_sub_section {
+    /* border-color: #7871af; */
+    display: flex;
+}
+
+.pj_details {
+    width: 45%;
+    margin: 40px 10px;
+    padding: 35px;
+    background-color: #20262e;
+    border-radius: 5px;
+    /* border-color: #7871af; */
+}
+
+.pj_details:hover {
+    box-shadow: 3px 5px 15px #d49b4f
+}
+
+.pj_details h4 {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+}
+
+.pj_details p {
+    color: #dbf7df;
+    font-size: 17px;
+}
+
+/* contacts  */
+section.contact_section {
+    background-color: #20262e;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.contact_section h2 {
+    font-size: 30px;
+    color: #d49b4f;
+}
+
+.contact_section form div > input,
+textarea {
+    background-color: lightgray;
+    width: 350px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.contact_section form div > input:focus,
+textarea:focus {
+    border: 1px solid #d49b4f;
+}
+
+.contact_section form div > button {
+    font-size: 15px;
+}
+
+.my_github {
+    margin-top: 15px;
+}
+
+.my_github button {
+    padding: 10px 48px;
+    background-color: #524e6d;
+    font-size: 15px;
+}
+
+.my_github button > a {
+    text-decoration: none;
+    color: white;
+}
+
+.my_github button:hover {
+    background-color: #d49b4f;
+}
+
+/* buttons */
+.my_clicker {
+    padding: 10px 8px;
+    border-radius: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.my_send {
+    background-color: #d49b4f;
+    color: #201e2c;
+    font-weight: 540;
+}
+
+.my_send:hover {
+    cursor: pointer;
+    background-color: #524e6d;
+    color: white;
+}
