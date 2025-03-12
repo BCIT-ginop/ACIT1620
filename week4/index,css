@@ -1,0 +1,118 @@
+:root {
+  --dark-primary: #003c71;
+  --primary: #296cf6;
+  --transparent-primary: rgb(0 37 85 / 0.8);
+  --light-accent: #ffffff;
+  --primary-accent: #fff400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: var(--light-accent);
+}
+
+.overlay {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  color: var(--light-accent);
+  font-weight: bold;
+  font-size: medium;
+}
+
+.menubar {
+  background-color: var(--dark-primary);
+  gap: 20px;
+}
+
+.menubar ul {
+}
+
+.menubar li {
+  color: var(--light-accent);
+  background-color: var(--dark-primary);
+  font-weight: bold;
+  list-style-type: none;
+
+  transition: color 500ms linear, background-color 500ms linear;
+}
+
+.menubar li:hover {
+  color: var(--dark-primary);
+  background-color: var(--primary-accent);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.header ul {
+}
+
+.header a {
+  color: var(--dark-primary);
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+  border-bottom: 2px solid transparent;
+
+  transition: color 500ms linear;
+}
+
+.header a:hover {
+  color: var(--primary);
+  border-bottom: 2pz solid var(--primary-accent);
+}
+
+.logo {
+  width: 64px;
+  height: 54px;
+}
+
+#big-info {
+  height: 800px;
+  background-image: url(images/bcit-big-info.png);
+  position: relative;
+}
+
+.overlay h1 {
+  font-weight: bold;
+  font-size: large;
+}
+
+.overlay p {
+  font-size: medium;
+}
+
+.overlay button {
+  border: 1px solid var(--light-accent);
+  padding: 2px 5px 2px 5px;
+
+  transition: background-color 200ms ease-in;
+}
+
+.overlay button:hover {
+  background-color: var(--transparent-primary);
+}
+
+#welcome {
+  font-weight: bold;
+  font-size: large;
+}
+
+#welcome h1 {
+  color: var(--dark-primary);
+  font-size: medium;
+}
